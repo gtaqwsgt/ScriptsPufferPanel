@@ -3,8 +3,6 @@
 echo "╔════════════════════╗"
 echo "║                    ║"
 echo "║  » Made by Anto «  ║"
-echo "║         For        ║"
-echo "║    Nexora Tutos    ║"
 echo "║                    ║"
 echo "╚════════════════════╝"
 sleep 1
