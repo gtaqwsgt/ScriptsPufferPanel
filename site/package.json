@@ -1,0 +1,15 @@
+{
+  "name": "scrdocker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ubuntui": "rm -rf public && mkdir -p public/ubuntu public/fedora && cp ../ubuntu/install.sh ./public/ubuntu/install.txt && npm run ubuntur",
+    "ubuntur": "cp ../ubuntu/remove.sh ./public/ubuntu/remove.txt; npm run fedorai",
+    "fedorai": "cp ../fedora/install.sh ./public/fedora/install.txt; npm run fedorar",
+    "fedorar": "cp ../fedora/remove.sh ./public/fedora/remove.txt"
+  },
+  "keywords": [],
+  "author": "Aqws",
+  "license": "ISC"
+}
